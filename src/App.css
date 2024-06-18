@@ -1,0 +1,29 @@
+.rootContainerApp {
+    height: 100vh;
+    width: 100vw;
+
+    display:flex;
+    flex-direction: column;
+}
+
+.headerApp {
+    position: fixed;
+    top: 0;
+
+    height: 20vh;
+    width: 100vw;
+}
+
+.bodyApp {
+    height: 70vh;
+    width: 100vw;
+    padding-top: 20vh;
+}
+
+.footerApp {
+    position: fixed;
+    bottom: 0;
+
+    height: 10vh;
+    width: 100vw;
+}

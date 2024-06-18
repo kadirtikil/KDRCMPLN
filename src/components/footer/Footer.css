@@ -1,0 +1,24 @@
+.rootFooter {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+
+    height: 10vh;
+    
+}
+
+.impressum {
+    color: #E4E0D7;
+}
+
+.impressum:hover {
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5px;
+
+    color: black;
+    background-color: #E4E0D7;
+}
