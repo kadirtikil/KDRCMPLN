@@ -17,7 +17,9 @@
 .bodyApp {
     height: 70vh;
     width: 100vw;
-    padding-top: 20vh;
+    margin-top: 20vh;
+    overflow-y: scroll;
+    
 }
 
 .footerApp {

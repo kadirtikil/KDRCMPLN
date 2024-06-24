@@ -1,2 +1,26 @@
 .rootBody{
+    height: 70vh;
+    /* if content becomes scrollable, 
+    100vw would create a horizontal bar.*/
+    width: 98vw;
+    
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(5,1fr);
+    
+    
+
+}
+
+.postRootBody {
+    padding: 2px;
+    margin: 2px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 10vh;
+}
+
+.postRootBody:hover {
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(92, 92, 92, 0.8);
 }
