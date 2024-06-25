@@ -10,7 +10,6 @@ interface Post {
     description: string;
     tags: string;
     author: string;
-    // Add other fields as necessary
 }
 
 const MyComponent: React.FC = () => {
