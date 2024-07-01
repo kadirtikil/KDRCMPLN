@@ -1,12 +1,20 @@
 import './Post.css';
 
-export default function Post(){
+type PostProps = {
+    title: string,
+    description: string,
+    author: string
+}
+
+export default function Post({title, description, author}: PostProps){
 
     return(
         <>
-        <div className="rootPost">
-            <p>post is in here</p>
-        </div>
+            <div className="rootPost" >
+                <p>{title}</p>
+                <textarea name="" id="">{description}</textarea>
+                <p>{author}</p>
+            </div>
         </>
     )
 }

@@ -32,8 +32,10 @@ const MyComponent: React.FC = () => {
             <div className="rootBody">
                 {posts.map((post) => (
                     <div className='postRootBody' key={post.id}>
-                        <h3>{post.title}</h3>
-                        <h6><strong>Author:</strong> {post.author}</h6>
+                        <h4>{post.title}</h4>
+                        <p>{post.author}</p>
+                        {/* <Post title={post.title} description={post.description} 
+                            author={post.author}/> */}
                     </div>
                 ))}
             </div>
